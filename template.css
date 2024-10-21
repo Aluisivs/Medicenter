@@ -1,6 +1,9 @@
+*{font-family: Arial;
+}
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -44,7 +47,7 @@ padding: 15px;
 text-decoration: none;
 text-transform: uppercase;
 color: #727272;
-font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -74,11 +77,103 @@ justify-content: center;
 text-shadow: 0px 1px 0px #555555;
 }
 
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px #000000;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
 
+.banner_headline h2{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-shadow: 2px 2px 0px #000000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 15px;
+}
 
 .banner_options{
-    flex:1;
-    height: 210px;
-    
-    
-}
+   height: 210px;
+    display: flex;  
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        flex: 1;
+        color: #FFFFFF;
+        padding: 20px;
+    }
+
+    .banner1 {
+        background-color: #39aae1;
+        
+    }
+
+    .banner2 {
+        background-color: #0079c7;
+    }
+
+    .banner3 {
+        background-color: #2b4c99;
+    }
+
+    .banner title {
+        font-size: 21px;
+    }
+    .banner_desc {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner_options a {
+        display: inline-block;
+        border: 1px solid #FFFFFF;
+        padding: 5px;
+        color: #FFFFFF;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    .banner_desc1, .banner_desc2, .banner_desc3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+        border-bottom:1pxsolid#0077c754;
+        padding-bottom: 10px;
+        font-size: 12px;
+        }
+        
+        .banner3 .banner_title {
+        margin-bottom: 10px;
+        }
+
+     #geral{ 
+        display: flex;
+        justify-content: center;
+
+     }   
+     #geral section{
+flex: 2;
+
+     }
+     #geral aside {
+        flex: 1;
+     }
+
+     .widget_title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+     }
+
+     .widget_title_text {
+        color: #000000;
+        font-size: 21px;
+        font-weight: bold;
+     }
